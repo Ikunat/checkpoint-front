@@ -21,3 +21,27 @@ h1 {
   text-decoration: none;
   color: #151515;
 }
+
+.countries-list {
+  display: flex;
+  align-content: flex-start;
+  flex-wrap: wrap;
+  margin: 50px auto;
+  max-width: 80vw;
+}
+
+.country {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 50px;
+  border: 1px solid #dfdfdf;
+  width: 80px;
+  margin: 1px;
+  text-decoration: none;
+  color: #151515;
+}
+
+.flag {
+  padding-right: 10px;
+}

@@ -35,7 +35,7 @@ export default function ContinentsComponent() {
     <div className="countries-list">
       {data.continent.countries.map((country: Country, index: number) => (
         <NavLink className="country" key={index} to={`/info/${country.name}`}>
-          <p>{country.emoji}</p>
+          <p className="flag">{country.emoji}</p>
           <p>{country.name}</p>
         </NavLink>
       ))}
