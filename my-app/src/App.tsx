@@ -9,10 +9,10 @@ function App() {
     <Routes>
       <Route path="*" element={<Continents />} />
       <Route
-        path="/info/:continent-name"
+        path="/info/:continentCode"
         element={<SelectedContinent />}
       ></Route>
-      <Route path="/info/:country-name" element={<SelectedCountry />}></Route>
+      <Route path="/info/:countryName" element={<SelectedCountry />}></Route>
     </Routes>
   );
 }

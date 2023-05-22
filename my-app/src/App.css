@@ -1,5 +1,6 @@
 h1 {
   text-align: center;
+  margin-top: 50px;
 }
 .continents-list {
   display: flex;
@@ -16,5 +17,7 @@ h1 {
   padding: 50px 100px;
   border: 1px solid #dfdfdf;
   width: 80px;
-  margin: 1px
+  margin: 1px;
+  text-decoration: none;
+  color: #151515;
 }
